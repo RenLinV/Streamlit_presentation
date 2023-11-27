@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import altair as alt
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 import random
 import graphviz
 import pydeck as pdk
@@ -98,7 +98,7 @@ def Display_almost_anything():
 
         with tab4:
             st.code('''
-                        import pandas as pd
+            import pandas as pd
             df = pd.DataFrame({'col1': [1,2,3]})
             df  # 👈 Draw the dataframe
 
