@@ -1,0 +1,4 @@
+streamlit>=1.25.0
+pyhton>=3.10
+matplotlib>=3.8.2
+graphviz
