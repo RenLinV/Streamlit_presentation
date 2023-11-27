@@ -8,7 +8,7 @@ st.markdown("# **Main 🐼**")
 st.markdown('''
 #### Overview 
 
-Let me present an overview of python library called &nbsp **$\color{#008B8B}{Streamlit}$**.
+Let me present an overview of python library called &nbsp; **$\color{#008B8B}{Streamlit}$**.
 
 What  do you need &nbsp; **$\color{#008B8B}{Streamlit}$** &nbsp; for? Well, it turns data scripts into shareable 
 web apps in minutes, giving you a chance to use pure Python. On top of that, users are not required to have any 
