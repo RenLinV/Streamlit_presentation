@@ -1,9 +1,10 @@
+import graphviz
 import streamlit as st
 import pandas as pd
 import numpy as np
 import altair as alt
 import random
-import graphviz
+
 import pydeck as pdk
 from PIL import Image
 from datetime import time
