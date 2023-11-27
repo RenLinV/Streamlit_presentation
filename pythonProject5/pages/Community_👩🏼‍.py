@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.set_page_config(layout=‘wide’)
+st.set_page_config(layout='wide')
 st.sidebar.header("**Community 👩🏼‍💻‍**")
 
 st.markdown("# **Community 👩🏼‍💻**")
