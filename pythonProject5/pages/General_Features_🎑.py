@@ -2,12 +2,11 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import altair as alt
-import matplotlib
 import matplotlib.pyplot as plt
 import random
-from PIL import Image
 import graphviz
 import pydeck as pdk
+from PIL import Image
 from datetime import time
 from datetime import datetime
 
