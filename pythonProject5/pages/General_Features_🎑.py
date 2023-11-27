@@ -1041,15 +1041,10 @@ def Media_elements():
     ''')
     tab1, tab2 = st.tabs(['Image', 'Code'])
     with tab1:
-        st.image("https://github.com/RenLinV/Streamlit_presentation/blob/main/pythonProject5/parrots.jpg?raw=true",width=400, caption='Yes. Pink parrots aka galahs.')
+        st.image("https://github.com/RenLinV/Streamlit_presentation/blob/main/pythonProject5/parrots.jpg?raw=true", caption='Yes. Pink parrots aka galahs.')
     with tab2:
         st.code('''
-        import streamlit as st
-        from PIL import Image
-
-        image = Image.open('/parrots.jpg')
-
-        st.image(image, caption='Yes. Pink parrots galahs.')
+        st.image("https://github.com/RenLinV/Streamlit_presentation/blob/main/pythonProject5/parrots.jpg?raw=true", caption='Yes. Pink parrots aka galahs.')
         ''')
 
     st.markdown('\n')
@@ -1063,10 +1058,10 @@ def Media_elements():
     ''')
     tab3, tab4 = st.tabs(['Audio', 'Code'])
     with tab3:
-        st.audio("https://github.com/RenLinV/Streamlit_presentation/blob/main/pythonProject5/Aot_guren_no_yamiya.mp3", 'rb',format='audio/ogg')
+        st.audio("https://github.com/RenLinV/Streamlit_presentation/raw/main/pythonProject5/Aot_guren_no_yamiya.mp3", 'rb',format='audio/ogg')
     with tab4:
         st.code('''
-        st.audio("https://github.com/RenLinV/Streamlit_presentation/blob/main/pythonProject5/Aot_guren_no_yamiya.mp3", 'rb',format='audio/ogg')
+        st.audio("https://github.com/RenLinV/Streamlit_presentation/raw/main/pythonProject5/Aot_guren_no_yamiya.mp3", 'rb',format='audio/ogg')
         ''')
 
     st.markdown('\n')
