@@ -1063,16 +1063,10 @@ def Media_elements():
     ''')
     tab3, tab4 = st.tabs(['Audio', 'Code'])
     with tab3:
-        audio_file = open('Aot_guren_no_yamiya.mp3', 'rb')
-        audio_bytes = audio_file.read()
-
-        st.audio(audio_bytes, format='audio/ogg')
+        st.audio("https://github.com/RenLinV/Streamlit_presentation/blob/main/pythonProject5/Aot_guren_no_yamiya.mp3", 'rb',format='audio/ogg')
     with tab4:
         st.code('''
-        audio_file = open("Aot_guren_no_yamiya.mp3", 'rb')
-        audio_bytes = audio_file.read()
-
-        st.audio(audio_bytes, format='audio/ogg')
+        st.audio("https://github.com/RenLinV/Streamlit_presentation/blob/main/pythonProject5/Aot_guren_no_yamiya.mp3", 'rb',format='audio/ogg')
         ''')
 
     st.markdown('\n')
