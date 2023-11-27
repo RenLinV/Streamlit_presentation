@@ -1124,6 +1124,7 @@ def Layouts_and_containers():
             st.markdown('\n\n\n')
             st.markdown('\n\n\n')
             st.markdown('\n\n\n')
+            st.markdown('\n\n\n')
 
         with st.container():
             st.image('https://docs.streamlit.io/images/api/tabs.jpg')
