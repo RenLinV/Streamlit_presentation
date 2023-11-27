@@ -9,7 +9,7 @@ import graphviz
 import pydeck as pdk
 from datetime import time
 from datetime import datetime
-
+st.set_page_config(layout=‘wide’)
 st.sidebar.header("General Features 🎑")
 
 def Display_almost_anything():
