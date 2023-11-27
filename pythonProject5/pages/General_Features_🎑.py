@@ -1041,7 +1041,7 @@ def Media_elements():
     ''')
     tab1, tab2 = st.tabs(['Image', 'Code'])
     with tab1:
-        st.image("https://github.com/RenLinV/Streamlit_presentation/blob/main/pythonProject5/parrots.jpg",width=400, caption='Yes. Pink parrots aka galahs.')
+        st.image("https://github.com/RenLinV/Streamlit_presentation/blob/main/pythonProject5/parrots.jpg?raw=true",width=400, caption='Yes. Pink parrots aka galahs.')
     with tab2:
         st.code('''
         import streamlit as st
