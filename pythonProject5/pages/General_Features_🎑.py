@@ -1041,7 +1041,7 @@ def Media_elements():
     ''')
     tab1, tab2 = st.tabs(['Image', 'Code'])
     with tab1:
-        st.image('https://github.com/RenLinV/Streamlit_presentation/blob/main/pythonProject5/parrots.jpg', caption='Yes. Pink parrots aka galahs.')
+        st.image("https://github.com/RenLinV/Streamlit_presentation/blob/main/pythonProject5/parrots.jpg", caption='Yes. Pink parrots aka galahs.')
     with tab2:
         st.code('''
         import streamlit as st
@@ -1069,7 +1069,7 @@ def Media_elements():
         st.audio(audio_bytes, format='audio/ogg')
     with tab4:
         st.code('''
-        audio_file = open('Aot_guren_no_yamiya.mp3', 'rb')
+        audio_file = open("Aot_guren_no_yamiya.mp3", 'rb')
         audio_bytes = audio_file.read()
 
         st.audio(audio_bytes, format='audio/ogg')
